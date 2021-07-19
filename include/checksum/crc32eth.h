@@ -3,7 +3,7 @@
 #include "types/typedefs.h"
 
 // function
-u32 crc32eth(u8* buf, size_t size);
+u32 crc32eth(const u8* buf, size_t size);
 
 // table
 /*-

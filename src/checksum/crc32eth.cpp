@@ -1,8 +1,8 @@
 #include "checksum/crc32eth.h"
 
-u32 crc32eth(u8* buf, size_t size)
+u32 crc32eth(const u8* buf, size_t size)
 {
-    u8* p = buf;
+    const u8* p = buf;
     u32 crc;
 
     crc = ~0U;
