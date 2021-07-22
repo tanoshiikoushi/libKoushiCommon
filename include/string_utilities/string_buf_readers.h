@@ -2,9 +2,7 @@
 
 #include "types/typedefs.h"
 
-// read arbitrary length terminated string into buffer using oversized buffer - we can adjust this later
-// NOTE: THIS IS NOT OVERFLOW SAFE
-u8* read_dynamic_string(const u8* source, const u64 expected_size);
+u8* read_dynamic_string(const u8* source);
 
 #define STRING_BUF_READERS_H_INCLUDED
 
